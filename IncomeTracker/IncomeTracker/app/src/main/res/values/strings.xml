@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Income Tracker</string>
+    <string-array name="workplaces">
+        <item>Workplace A (variable rate)</item>
+        <item>Workplace B (fixed ₪40/h)</item>
+    </string-array>
+</resources>

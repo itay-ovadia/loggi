@@ -1,0 +1,5 @@
+#!/bin/sh
+# Gradle wrapper startup script for Unix
+exec "$(dirname "$0")/gradle/wrapper/gradle-wrapper.jar" "$@" 2>/dev/null || \
+  gradle "$@" 2>/dev/null || \
+  echo "Please install Gradle or open in Android Studio"
